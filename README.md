@@ -1,5 +1,5 @@
 # Video-Classification-UCF101
-The repository contains video classification model for UCF101. 2D-LSTM network is used for this purpose. The processed dataset was taken from https://github.com/feichtenhofer/twostreamfusion. This was implemented in Google Colab. This is my first try on Sequence Model Implementation and I wanted to use them in vision task. Hence started working with videos.
+The repository contains video classification model for UCF101. 2D-LSTM network is used for this purpose. The processed dataset was taken from https://github.com/feichtenhofer/twostreamfusion. This was implemented in Google Colab. This is my first try on Sequence Model Implementation and I wanted to use them in vision task. Hence started working with videos. After reading few papers, I used the idea of using features of each frame in a sequence for learning and classification. 
 
 The dataset used is already processed, each video sample is convered into sequence of frames and each sequence stored in separate folders. I have divided the code into 4 following parts:
 
